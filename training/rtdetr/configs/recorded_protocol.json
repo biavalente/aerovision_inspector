@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-23",
+  "dataset": "DLR Aircraft Dent",
+  "seed": 20261022,
+  "test_fraction_of_all_dlr": 0.1,
+  "splits": {
+    "train_images": 1556,
+    "validation_images": 645,
+    "sealed_test_images": 285,
+    "sealed_test_normals": 168,
+    "sealed_test_dents": 117
+  },
+  "continuation": {
+    "epochs": 5,
+    "image_size": 384,
+    "batch_size": 4,
+    "device": "cpu",
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "augmentations": {
+      "scale": 0.15,
+      "translate": 0.03,
+      "horizontal_flip": 0.5,
+      "mosaic": 0.0,
+      "mixup": 0.0
+    }
+  },
+  "decision_threshold": {
+    "value": 0.1786108272594388,
+    "chosen_only_on": "DLR validation partition",
+    "rule": "maximize dent F1; tie-break by specificity then lower threshold"
+  },
+  "test_isolation": "The held-out DLR test did not enter gradients, checkpoint selection or threshold calibration for this recorded continuation. It remains a public-dataset internal holdout, not field validation."
+}

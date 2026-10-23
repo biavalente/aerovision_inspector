@@ -1,0 +1,162 @@
+[
+  {
+    "file": "01_erro_1753187622-image.jpg",
+    "sample_id": "test/1753187622-image",
+    "ground_truth": "normal",
+    "prediction": "dent",
+    "score": 0.18989470601081848,
+    "selection": "erro"
+  },
+  {
+    "file": "02_erro_1753188035-image.jpg",
+    "sample_id": "test/1753188035-image",
+    "ground_truth": "normal",
+    "prediction": "dent",
+    "score": 0.26308515667915344,
+    "selection": "erro"
+  },
+  {
+    "file": "03_erro_1754909672-image.jpg",
+    "sample_id": "test/1754909672-image",
+    "ground_truth": "dent",
+    "prediction": "normal",
+    "score": 0.06091037392616272,
+    "selection": "erro"
+  },
+  {
+    "file": "04_erro_1754909763-image.jpg",
+    "sample_id": "test/1754909763-image",
+    "ground_truth": "dent",
+    "prediction": "normal",
+    "score": 0.07600996643304825,
+    "selection": "erro"
+  },
+  {
+    "file": "05_erro_1754915728-image.jpg",
+    "sample_id": "test/1754915728-image",
+    "ground_truth": "dent",
+    "prediction": "normal",
+    "score": 0.16993661224842072,
+    "selection": "erro"
+  },
+  {
+    "file": "06_correto_1753107610-image.jpg",
+    "sample_id": "test/1753107610-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.019103921949863434,
+    "selection": "correto"
+  },
+  {
+    "file": "07_correto_1753107707-image.jpg",
+    "sample_id": "test/1753107707-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.016772611066699028,
+    "selection": "correto"
+  },
+  {
+    "file": "08_correto_1753107815-image.jpg",
+    "sample_id": "test/1753107815-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.036238886415958405,
+    "selection": "correto"
+  },
+  {
+    "file": "09_correto_1753108623-image.jpg",
+    "sample_id": "test/1753108623-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.13588277995586395,
+    "selection": "correto"
+  },
+  {
+    "file": "10_correto_1753109270-image.jpg",
+    "sample_id": "test/1753109270-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.08483325690031052,
+    "selection": "correto"
+  },
+  {
+    "file": "11_correto_1753109280-image.jpg",
+    "sample_id": "test/1753109280-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.07411910593509674,
+    "selection": "correto"
+  },
+  {
+    "file": "12_correto_1753109698-image.jpg",
+    "sample_id": "test/1753109698-image",
+    "ground_truth": "dent",
+    "prediction": "dent",
+    "score": 0.2061200588941574,
+    "selection": "correto"
+  },
+  {
+    "file": "13_correto_1753110148-image.jpg",
+    "sample_id": "test/1753110148-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.041312042623758316,
+    "selection": "correto"
+  },
+  {
+    "file": "14_correto_1753110222-image.jpg",
+    "sample_id": "test/1753110222-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.020999856293201447,
+    "selection": "correto"
+  },
+  {
+    "file": "15_correto_1753110706-image.jpg",
+    "sample_id": "test/1753110706-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.11215892434120178,
+    "selection": "correto"
+  },
+  {
+    "file": "16_correto_1753110889-image.jpg",
+    "sample_id": "test/1753110889-image",
+    "ground_truth": "normal",
+    "prediction": "normal",
+    "score": 0.09383345395326614,
+    "selection": "correto"
+  },
+  {
+    "file": "17_correto_1753111024-image.jpg",
+    "sample_id": "test/1753111024-image",
+    "ground_truth": "dent",
+    "prediction": "dent",
+    "score": 0.19401802122592926,
+    "selection": "correto"
+  },
+  {
+    "file": "18_correto_1753111383-image.jpg",
+    "sample_id": "test/1753111383-image",
+    "ground_truth": "dent",
+    "prediction": "dent",
+    "score": 0.23167769610881805,
+    "selection": "correto"
+  },
+  {
+    "file": "19_correto_1753112537-image.jpg",
+    "sample_id": "test/1753112537-image",
+    "ground_truth": "dent",
+    "prediction": "dent",
+    "score": 0.3056764006614685,
+    "selection": "correto"
+  },
+  {
+    "file": "20_correto_1753112586-image.jpg",
+    "sample_id": "test/1753112586-image",
+    "ground_truth": "dent",
+    "prediction": "dent",
+    "score": 0.28775447607040405,
+    "selection": "correto"
+  }
+]

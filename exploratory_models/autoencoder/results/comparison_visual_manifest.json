@@ -1,0 +1,322 @@
+[
+  {
+    "file": "01_erro_1753187622-image.jpg",
+    "sample_id": "test/1753187622-image",
+    "ground_truth": "normal",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.07460843026638031,
+      "correct": false
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.18989470601081848,
+      "correct": false
+    },
+    "selection": "erro"
+  },
+  {
+    "file": "02_erro_1753107610-image.jpg",
+    "sample_id": "test/1753107610-image",
+    "ground_truth": "normal",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.1416170299053192,
+      "correct": false
+    },
+    "rtdetr": {
+      "prediction": "normal",
+      "score": 0.019103921949863434,
+      "correct": true
+    },
+    "selection": "erro"
+  },
+  {
+    "file": "03_erro_1754909672-image.jpg",
+    "sample_id": "test/1754909672-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.11356505006551743,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "normal",
+      "score": 0.06091037392616272,
+      "correct": false
+    },
+    "selection": "erro"
+  },
+  {
+    "file": "04_erro_1753188035-image.jpg",
+    "sample_id": "test/1753188035-image",
+    "ground_truth": "normal",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.07093854993581772,
+      "correct": false
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.26308515667915344,
+      "correct": false
+    },
+    "selection": "erro"
+  },
+  {
+    "file": "05_erro_1754999680-image.jpg",
+    "sample_id": "test/1754999680-image",
+    "ground_truth": "normal",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.043188437819480896,
+      "correct": false
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.1788841336965561,
+      "correct": false
+    },
+    "selection": "erro"
+  },
+  {
+    "file": "06_correto_1753109698-image.jpg",
+    "sample_id": "test/1753109698-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.129765123128891,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.2061200588941574,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "07_correto_1757001077-image.jpg",
+    "sample_id": "test/1757001077-image",
+    "ground_truth": "normal",
+    "autoencoder": {
+      "prediction": "normal",
+      "score": 0.025033971294760704,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "normal",
+      "score": 0.1343982219696045,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "08_correto_1753111024-image.jpg",
+    "sample_id": "test/1753111024-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.06521419435739517,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.19401802122592926,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "09_correto_1753111383-image.jpg",
+    "sample_id": "test/1753111383-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.11170906573534012,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.23167769610881805,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "10_correto_1753112537-image.jpg",
+    "sample_id": "test/1753112537-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.11615367978811264,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.3056764006614685,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "11_correto_1753112586-image.jpg",
+    "sample_id": "test/1753112586-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.10001087188720703,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.28775447607040405,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "12_correto_1753112614-image.jpg",
+    "sample_id": "test/1753112614-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.12771397829055786,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.2765776216983795,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "13_correto_1753183762-image.jpg",
+    "sample_id": "test/1753183762-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.06368567049503326,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.3065527379512787,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "14_correto_1753791444-image.jpg",
+    "sample_id": "test/1753791444-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.06829292327165604,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.32321539521217346,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "15_correto_1753791547-image.jpg",
+    "sample_id": "test/1753791547-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.05487702414393425,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.3142588436603546,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "16_correto_1753792570-image.jpg",
+    "sample_id": "test/1753792570-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.1201542541384697,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.3006286919116974,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "17_correto_1753807503-image.jpg",
+    "sample_id": "test/1753807503-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.07887405157089233,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.31493139266967773,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "18_correto_1753808436-image.jpg",
+    "sample_id": "test/1753808436-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.08352629840373993,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.23059764504432678,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "19_correto_1754590049-image.jpg",
+    "sample_id": "test/1754590049-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.07461132109165192,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.3208102881908417,
+      "correct": true
+    },
+    "selection": "correto"
+  },
+  {
+    "file": "20_correto_1754907986-image.jpg",
+    "sample_id": "test/1754907986-image",
+    "ground_truth": "dent",
+    "autoencoder": {
+      "prediction": "dent",
+      "score": 0.0912553146481514,
+      "correct": true
+    },
+    "rtdetr": {
+      "prediction": "dent",
+      "score": 0.3191782832145691,
+      "correct": true
+    },
+    "selection": "correto"
+  }
+]

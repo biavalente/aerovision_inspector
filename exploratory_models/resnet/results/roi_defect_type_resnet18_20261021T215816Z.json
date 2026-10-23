@@ -1,0 +1,106 @@
+{
+  "version_name": "roi_defect_type_resnet18_20261021T215816Z",
+  "model_type": "roi_defect_type_resnet18",
+  "trained_at": "2026-10-21T21:58:16+00:00",
+  "input_size": 224,
+  "class_names": [
+    "normal_roi",
+    "ablation",
+    "breakdown",
+    "fracture",
+    "groove"
+  ],
+  "defect_type_classes": [
+    "ablation",
+    "breakdown",
+    "fracture",
+    "groove"
+  ],
+  "training_dataset": "AeBAD-S/test local development corpus",
+  "training_conditions": [
+    "background",
+    "illumination",
+    "same"
+  ],
+  "validation_conditions": [
+    "view"
+  ],
+  "training_image_count": 1665,
+  "validation_image_count": 464,
+  "epochs_requested": 4,
+  "inconclusive_confidence_threshold": 0.45,
+  "promotion_status": "active_type_support",
+  "promotion_gate": {
+    "macro_f1_minimum": 0.7,
+    "minimum_class_recall": 0.5
+  },
+  "metrics": {
+    "validation_accuracy": 0.9763,
+    "validation_loss": 0.2741,
+    "precision_normal_roi": 0.9626,
+    "recall_normal_roi": 0.9783,
+    "f1_normal_roi": 0.9704,
+    "precision_ablation": 0.9268,
+    "recall_ablation": 0.9268,
+    "f1_ablation": 0.9268,
+    "precision_breakdown": 1.0,
+    "recall_breakdown": 1.0,
+    "f1_breakdown": 1.0,
+    "precision_fracture": 0.9898,
+    "recall_fracture": 0.9604,
+    "f1_fracture": 0.9749,
+    "precision_groove": 1.0,
+    "recall_groove": 1.0,
+    "f1_groove": 1.0,
+    "balanced_recall": 0.9731,
+    "macro_f1": 0.9744,
+    "minimum_class_recall": 0.9268,
+    "temperature": 0.55,
+    "best_epoch_macro_f1": 0.9744
+  },
+  "confusion_matrix": [
+    [
+      180,
+      3,
+      0,
+      1,
+      0
+    ],
+    [
+      3,
+      38,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      80,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      97,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      58
+    ]
+  ],
+  "roi_supervision": "A máscara de ground truth é usada exclusivamente para construir os recortes de treino e validação. A inferência examina ROIs de uma varredura local multi-escala, sem máscara; recortes normais são gerados apenas a partir de imagens AeBAD-S good.",
+  "pretrained_backbone": {
+    "architecture": "ResNet-18",
+    "weights_source": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "weights_file": "resnet18-f37072fd.pth",
+    "normalization": "ImageNet mean/std"
+  },
+  "limitations": "Classificador local de tipo de defeito em recortes de ROI, com uma classe normal de rejeição. O treino usa máscaras AeBAD-S apenas para gerar os recortes defeituosos; durante a inferência, a ROI vem de uma varredura local multi-escala, sem máscara. A validação retém a condição de captura 'view', separada das condições de treino. Não é benchmark oficial nem prova de generalização para aeronaves operacionais. Passou os limiares internos para apoio não bloqueante à revisão, com desacordo entre tipos encaminhado como caso complexo."
+}

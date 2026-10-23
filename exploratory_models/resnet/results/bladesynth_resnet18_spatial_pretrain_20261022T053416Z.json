@@ -1,0 +1,31 @@
+{
+  "version_name": "bladesynth_resnet18_spatial_pretrain_20261022T053416Z",
+  "model_type": "resnet18_spatial_pretrain",
+  "trained_at": "2026-10-22T05:34:16+00:00",
+  "source_dataset": "BladeSynth",
+  "task": "binary synthetic normal/defect spatial pretraining only",
+  "metrics": {
+    "validation_loss": 0.0834,
+    "precision_normal_synthetic": 1.0,
+    "recall_normal_synthetic": 1.0,
+    "precision_defect_synthetic": 1.0,
+    "recall_defect_synthetic": 1.0,
+    "validation_accuracy": 1.0,
+    "balanced_recall": 1.0
+  },
+  "confusion_matrix": [
+    [
+      150,
+      0
+    ],
+    [
+      0,
+      600
+    ]
+  ],
+  "promotion": {
+    "automatic": false,
+    "next_step": "Fine-tune the backbone on the separate AeBAD-S ROI taxonomy, then validate before promotion."
+  },
+  "limitations": "Synthetic pretraining is not aircraft operational validation and is never used directly by dashboard inference."
+}

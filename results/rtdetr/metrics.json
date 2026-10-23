@@ -1,0 +1,48 @@
+{
+  "candidate": "full_dlr_continuation_20261023",
+  "status": "dashboard_demo_review_only",
+  "task": "DLR Aircraft Dent: binary image triage and dent localisation",
+  "protocol": {
+    "train_images": 1556,
+    "validation_images": 645,
+    "sealed_test_images": 285,
+    "sealed_test_normals": 168,
+    "sealed_test_dents": 117,
+    "test_role": "Internal held-out public-dataset evaluation; not field validation."
+  },
+  "operating_threshold": {
+    "value": 0.1786108272594388,
+    "chosen_on": "validation only",
+    "rule": "maximize dent F1; tie-break by specificity then lower threshold"
+  },
+  "image_level": {
+    "true_negative": 149,
+    "false_positive": 19,
+    "false_negative": 14,
+    "true_positive": 103,
+    "accuracy": 0.8842105263,
+    "precision_dent": 0.8442622951,
+    "recall_dent": 0.8803418803,
+    "f1_dent": 0.8619246862,
+    "specificity_normal": 0.8869047619,
+    "auroc_from_frozen_scores": 0.9582824583,
+    "average_precision_from_frozen_scores": 0.956560806
+  },
+  "localisation": {
+    "iou_threshold": 0.5,
+    "true_positive": 100,
+    "false_positive": 1300,
+    "false_negative": 30,
+    "precision": 0.0714285714,
+    "recall": 0.7692307692,
+    "map_50": 0.2802511988,
+    "map_50_95": 0.0846221595
+  },
+  "timing_cpu_seconds": {
+    "mean": 0.7650060446,
+    "min": 0.2843954,
+    "max": 1.4366038,
+    "p50": 0.7482198,
+    "p95": 1.03147492
+  }
+}

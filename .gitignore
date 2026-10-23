@@ -1,0 +1,29 @@
+# Runtime, dependencies and generated frontend assets
+.venv/
+**/node_modules/
+**/dist/
+**/__pycache__/
+*.py[cod]
+
+# Local state and user-provided material
+.env
+.env.*
+!*.env.example
+dashboard/data/
+datasets/
+outputs/
+*.sqlite3
+
+# Do not redistribute datasets or learned weights in the contest repository.
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+!dashboard/models/rtdetr/best.pt
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

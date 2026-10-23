@@ -1,0 +1,31 @@
+{
+  "candidate": "full_dlr_continuation_20261023",
+  "status": "dashboard_demo_review_only",
+  "input_size": 384,
+  "threshold_calibration": {
+    "source": "DLR validation partition only",
+    "selection_rule": "maximize dent F1; tie-break by specificity then lower threshold",
+    "selected_confidence_threshold": 0.1786108272594388
+  },
+  "test": {
+    "protocol": "Internal held-out DLR test, not an external field validation.",
+    "images": 285,
+    "normal_images": 168,
+    "dent_images": 117,
+    "metrics": {
+      "image_level": {
+        "true_negative": 149,
+        "false_positive": 19,
+        "false_negative": 14,
+        "true_positive": 103,
+        "accuracy": 0.8842105263,
+        "precision_dent": 0.8442622951,
+        "recall_dent": 0.8803418803,
+        "f1_dent": 0.8619246862,
+        "specificity_normal": 0.8869047619
+      },
+      "map_50": 0.2802511988,
+      "map_50_95": 0.0846221595
+    }
+  }
+}

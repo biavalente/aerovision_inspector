@@ -1,0 +1,5 @@
+-r ../dashboard/backend/requirements.txt
+torchvision>=0.20,<1.0
+PyYAML>=6.0,<7.0
+matplotlib>=3.9,<4.0
+scikit-learn>=1.5,<2.0
